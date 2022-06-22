@@ -43,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (_scrollController.position.pixels ==
           _scrollController.position.maxScrollExtent) {
         _getMoreData();
+        print(_getMoreData());
       }
     });
   }
